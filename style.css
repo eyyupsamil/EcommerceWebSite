@@ -3,13 +3,12 @@ body{
     padding: 0;
     margin: 0;
 }
-
 nav{
     background-color: #111;
     color: white;
     padding: 20px 50px;
 }
-.navtop{
+.navTop{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,4 +18,19 @@ nav{
     align-items: center;
     background-color: grey;
     padding: 10px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;   
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid green;
 }
