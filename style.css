@@ -39,3 +39,15 @@ nav{
     cursor: pointer;
 }
 
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgrey;
+    font-weight: 400;
+}
